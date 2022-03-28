@@ -1,0 +1,8 @@
+name: 'Setup StatD'
+description: 'Setup a StatD instance'
+author: 'QuickPay'
+inputs:
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
