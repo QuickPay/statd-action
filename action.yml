@@ -2,7 +2,10 @@ name: 'Setup StatD'
 description: 'Setup a StatD instance'
 author: 'QuickPay'
 inputs:
-
+  port:
+    description: 'The port to use'
+    required: false
+    default: '8125'
 runs:
   using: 'docker'
   image: 'Dockerfile'
